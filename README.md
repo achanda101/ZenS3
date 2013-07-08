@@ -10,8 +10,7 @@ ZenS3 doesn't have any authentication mechanism. So anyone who has the URL of a 
 ### Issues
 This is a very simple upload interface built in an hour.
 
--    Cannot handle mutiple file uploads
 -    Once the first upload is complete, cannot upload again without refreshing the page
--    
-EDIT:
+
+### EDIT:
 Capable of handling multiple file uploads (max = 5).
