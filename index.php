@@ -86,6 +86,7 @@ $buckets_array = $s3->listBuckets();
 		<div class="modal-footer">
 			<div class="fieldset flash" id="fsUploadProgress"></div>
 			<button class="btn primary" id="s3_upload" type="submit">Upload</button>
+			<button class="btn secondary" id="s3_cancel" onclick="swfu_s3.cancelQueue();">Cancel</button>
 			<a class="btn secondary reload" title="Reload the page to upload another file" href="#">Reload</a>
 		</div>
 		</form>
