@@ -11,7 +11,7 @@ $buckets_array = $s3->listBuckets();
 <title>Simple S3 Upload</title>
 <script type='text/javascript' src='js/jquery-1.5.2.min.js'></script>
 <script type="text/javascript" src="swfupload/swfupload.js"></script>
-<script type="text/javascript" src="js/swfupload.swfobject.js"></script>
+<script type="text/javascript" src="js/swfupload.queue.js"></script>
 <script type="text/javascript" src="js/fileprogress.js"></script>
 <script type="text/javascript" src="js/handlers.js"></script>
 <script type='text/javascript' src='js/application.js'></script>

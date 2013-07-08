@@ -9,7 +9,7 @@ $(function () {
 		file_size_limit : "50 MB",
 		file_types : "*.*",			// or you could use something like: "*.doc;*.wpd;*.pdf",
 		file_types_description : "All Files",
-		file_upload_limit : "0",
+		file_upload_limit : "5",
 		file_queue_limit : "5",
 
 		// Event handler settings
