@@ -84,7 +84,7 @@ $buckets_array = $s3->listBuckets();
           </div>
 		</div>
 		<div class="modal-footer">
-			<div class="flash" id="fsUploadProgress"></div>
+			<div class="fieldset flash" id="fsUploadProgress"></div>
 			<button class="btn primary" id="s3_upload" type="submit">Upload</button>
 			<a class="btn secondary reload" title="Reload the page to upload another file" href="#">Reload</a>
 		</div>

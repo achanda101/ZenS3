@@ -64,7 +64,7 @@ function uploadProgress(file, bytesLoaded, bytesTotal) {
 	try {
 		var percent = Math.ceil((bytesLoaded / bytesTotal) * 100);
 
-		file.id = "singlefile";	// This makes it so FileProgress only makes a single UI element, instead of one for each file
+		// file.id = "singlefile";	// This makes it so FileProgress only makes a single UI element, instead of one for each file
 		var progress = new FileProgress(file, this.customSettings.progress_target);
 		progress.setProgress(percent);
 		progress.setStatus("Uploading...");
@@ -75,7 +75,7 @@ function uploadProgress(file, bytesLoaded, bytesTotal) {
 
 function uploadSuccess(file, serverData) {
 	try {
-		file.id = "singlefile";	// This makes it so FileProgress only makes a single UI element, instead of one for each file
+		// file.id = "singlefile";	// This makes it so FileProgress only makes a single UI element, instead of one for each file
 		var progress = new FileProgress(file, this.customSettings.progress_target);
 		progress.setComplete();
 		progress.setStatus("Complete.");
@@ -99,7 +99,7 @@ function uploadComplete(file) {
 			this.setButtonDisabled(true);
 			uploadDone();
 		} else {
-			file.id = "singlefile";	// This makes it so FileProgress only makes a single UI element, instead of one for each file
+			// file.id = "singlefile";	// This makes it so FileProgress only makes a single UI element, instead of one for each file
 			var progress = new FileProgress(file, this.customSettings.progress_target);
 			progress.setError();
 			progress.setStatus("File rejected");
@@ -144,7 +144,7 @@ function uploadError(file, errorCode, message) {
 			return;
 		}
 
-		file.id = "singlefile";	// This makes it so FileProgress only makes a single UI element, instead of one for each file
+		// file.id = "singlefile";	// This makes it so FileProgress only makes a single UI element, instead of one for each file
 		var progress = new FileProgress(file, this.customSettings.progress_target);
 		progress.setError();
 		progress.toggleCancel(false);
