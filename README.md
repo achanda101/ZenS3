@@ -12,3 +12,6 @@ This is a very simple upload interface built in an hour.
 
 -    Cannot handle mutiple file uploads
 -    Once the first upload is complete, cannot upload again without refreshing the page
+-    
+EDIT:
+Capable of handling multiple file uploads (max = 5).
